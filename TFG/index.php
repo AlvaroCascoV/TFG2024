@@ -12,6 +12,6 @@
 </html>
 
 <?php 
-
+echo "prueba php";
 
 ?>
