@@ -7,6 +7,7 @@
 </head>
 <body>
     Aquí irá la página
+    hola
 </body>
 </html>
 
