@@ -11,8 +11,33 @@
 </head>
 
 <body>
-    Aquí irá la página
-    holiii
+    <header id="header" class="text-black">
+        <div id="tituloHead">
+            Nombre tienda
+        </div>
+        <div id="botones">
+            <div id="botonInicio">
+                <a href="./index.php"><button class="active"><i class="fas fa-home"></i> Inicio</button></a>
+            </div>
+            <div id="botonDescuentos">
+                <a href="./descuentos.php"><button><i class="fas fa-tag"></i> Descuentos</button></a>
+            </div>
+            <div id="botonDestacados">
+                <a href="./destacados.php"><button> Destacados</button></a>
+            </div>
+            <div id="botonFrutas">
+                <a href=""><button> Frutas</button></a>
+            </div>
+            <div id="botonVerduras">
+                <a href=""><button> Verduras</button></a>
+            </div>
+            <div id="botonVerduras">
+                <a href=""><button> <i class="fas fa-bars"></i></button></a>
+            </div>
+
+        </div>
+    </header>
+
 </body>
 
 </html>
