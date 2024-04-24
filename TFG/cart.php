@@ -147,25 +147,32 @@ $total = 0;
         <form action="cart.php" method="post">
             <h2>Añadir productos</h2>
             <div>
-		        <img src="pimientoa.png" alt="Producto 1">
                 <h3>Pimiento amarillo</h3>
+		        <img src="./assets/images/pimientoa.png" alt="Producto 1">
 	        	<p>Precio: 4.50€ /kg </p>
                 <label for="cantidad1">Cantidad:</label>
                 <input type="number" id="cantidad1" name="cantidad1" value="0">
             </div>
             <div>
-		        <img src="pimientoitaliano.png" alt="Producto 2">
                 <h3>Pimiento italiano</h3>
+		        <img src="./assets/images/pimientoitaliano.png" alt="Producto 2">
                 <p>Precio: 3€ /kg</p>
                 <label for="cantidad2">Cantidad:</label>
                 <input type="number" id="cantidad2" name="cantidad2" value="0">
             </div>
             <div>
-		        <img src="repollo.png" alt="Producto 3">
                 <h3>Repollo</h3>
+                <img src="./assets/images/repollo.png" alt="Producto 3">
 	        	<p>Precio: 3.50€ /pieza </p>
                 <label for="cantidad3">Cantidad:</label>
                 <input type="number" id="cantidad3" name="cantidad3" value="0">
+            </div>
+            <div>
+                <h3>Lima</h3>
+                <img src="./assets/images/limabien.png" alt="Producto 4">
+	        	<p>Precio: 3.50€ /pieza </p>
+                <label for="cantidad4">Cantidad:</label>
+                <input type="number" id="cantidad4" name="cantidad4" value="0">
             </div>
 
             <button type="submit">Agregar al carrito</button>
