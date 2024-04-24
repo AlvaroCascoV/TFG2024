@@ -11,7 +11,6 @@
 </head>
 
 <body>
-<<<<<<< HEAD
 	<h1>Tienda Online</h1>
 
 	<form action="cart.php" method="post">
@@ -37,40 +36,3 @@
 	</form>
 </body>
 </html>
-=======
-    <header id="header" class="text-black">
-        <div id="tituloHead">
-            Nombre tienda
-        </div>
-        <div id="botones">
-            <div id="botonInicio">
-                <a href="./index.php"><button class="active"><i class="fas fa-home"></i> Inicio</button></a>
-            </div>
-            <div id="botonDescuentos">
-                <a href="./descuentos.php"><button><i class="fas fa-tag"></i> Descuentos</button></a>
-            </div>
-            <div id="botonDestacados">
-                <a href="./destacados.php"><button> Destacados</button></a>
-            </div>
-            <div id="botonFrutas">
-                <a href=""><button> Frutas</button></a>
-            </div>
-            <div id="botonVerduras">
-                <a href=""><button> Verduras</button></a>
-            </div>
-            <div id="botonVerduras">
-                <a href=""><button> <i class="fas fa-bars"></i></button></a>
-            </div>
-
-        </div>
-    </header>
-
-</body>
-
-</html>
-
-<?php
-echo "prueba php";
-
-?>
->>>>>>> 201dc485161fd0375bbc6efa3fc6318c2b095b07
