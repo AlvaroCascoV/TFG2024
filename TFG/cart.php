@@ -170,7 +170,7 @@ $total = 0;
             <div>
                 <h3>Lima</h3>
                 <img src="./assets/images/limabien.png" alt="Producto 4">
-	        	<p>Precio: 3.50€ /pieza </p>
+	        	<p>Precio: 6.50€ /kg </p>
                 <label for="cantidad4">Cantidad:</label>
                 <input type="number" id="cantidad4" name="cantidad4" value="0">
             </div>
