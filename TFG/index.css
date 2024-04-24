@@ -1,0 +1,44 @@
+#header {
+    font-size: larger;
+    padding: 8px;
+    padding-left: 200px;
+    background-color:#75C279;
+    display: flex;
+    align-items: center;
+}
+
+
+#tituloHead {
+    vertical-align: middle;
+    padding-right: 250px;
+}
+
+#botones {
+    vertical-align: middle;
+    display: flex;
+    gap: 10px;
+}
+
+#botones a {
+    display: block;
+}
+
+#botones button {
+    padding: 8px;
+    background-color:#81EE87;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+#botones button:hover,
+#botones button:focus {
+    background-color: #3B9A40;
+    color: white;
+}
+
+#botones button.active {
+    background-color: #3B9A40;
+    color: white;
+}
