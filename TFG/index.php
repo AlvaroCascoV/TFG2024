@@ -31,9 +31,13 @@
             <div id="botonVerduras">
                 <a href=""><button> Verduras</button></a>
             </div>
-            <div id="botonVerduras">
+            <div id="botonCarrito">
+                <a href="./cart.php"><button><i class="fas fa-shopping-cart"></i> Carrito</button></a>
+            </div>
+            <div id="menu">
                 <a href=""><button> <i class="fas fa-bars"></i></button></a>
             </div>
+            
 
         </div>
     </header>
