@@ -6,13 +6,28 @@
     <title>TFG equipo 2</title>
 </head>
 <body>
-    Aquí irá la página
-    holaaaaaaa
-    prueba de conexion ultima
+	<h1>Tienda Online</h1>
+
+	<form action="cart.php" method="post">
+		<h2>Pimiento amarillo</h2>
+		<img src="pimientoa.png" alt="Producto 1">
+		<p>Precio: 4.50€/kg </p>
+		<label for="cantidad1">Cantidad:</label>
+		<input type="number" id="cantidad1" name="cantidad1" value="0">
+
+		<h2>Pimiento italiano</h2>
+		<img src="pimientoitaliano.png" alt="Producto 2">
+		<p>Precio: 3€ /kg</p>
+		<label for="cantidad2">Cantidad:</label>
+		<input type="number" id="cantidad2" name="cantidad2" value="0">
+       
+        <h2>Repollo</h2>
+		<img src="repollo.png" alt="Producto 3">
+		<p>Precio: 3.50€/pieza</p>
+		<label for="cantidad3">Cantidad:</label>
+		<input type="number" id="cantidad3" name="cantidad3" value="0">
+		
+        <button type="submit">Agregar al carrito</button>
+	</form>
 </body>
 </html>
-
-<?php 
-echo "prueba php";
-
-?>
