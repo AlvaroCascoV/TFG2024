@@ -38,9 +38,16 @@
                 <a href=""><button> <i class="fas fa-bars"></i></button></a>
             </div>
             
-
         </div>
     </header>
+
+
+
+    <footer>
+
+        
+
+    </footer>
 
 </body>
 
