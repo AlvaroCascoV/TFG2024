@@ -1,44 +1,108 @@
+/*Estilo del header*/
 #header {
-    font-size: larger;
-    padding: 8px;
-    padding-left: 200px;
-    background-color:#75C279;
-    display: flex;
-    align-items: center;
+  font-size: larger;
+  padding: 8px;
+  padding-left: 200px;
+  background-color: #75C279;
+  display: flex;
+  align-items: center;
 }
 
 
 #tituloHead {
-    vertical-align: middle;
-    padding-right: 250px;
+  vertical-align: middle;
+  padding-right: 250px;
 }
 
 #botones {
-    vertical-align: middle;
-    display: flex;
-    gap: 10px;
+  vertical-align: middle;
+  display: flex;
+  gap: 10px;
 }
 
 #botones a {
-    display: block;
+  display: block;
 }
 
 #botones button {
-    padding: 8px;
-    background-color:#81EE87;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    box-sizing: border-box;
+  padding: 8px;
+  background-color: #81EE87;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box;
 }
 
 #botones button:hover,
 #botones button:focus {
-    background-color: #3B9A40;
-    color: white;
+  background-color: #3B9A40;
+  color: white;
 }
 
 #botones button.active {
-    background-color: #3B9A40;
-    color: white;
+  background-color: #3B9A40;
+  color: white;
+}
+
+/*Estilo del footer*/
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.columnas-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.columna-footer {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.cabecera-columna-footer {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.redes-footer {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.redes-footer li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.redes-footer li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.redes-footer li a:hover {
+  color: #9adc9d;
+}
+
+.formulario-contacto {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.boton-enviar:hover {
+  background-color: #9adc9d;
+}
+
+.copyright {
+  color: rgb(151, 151, 151);
 }
