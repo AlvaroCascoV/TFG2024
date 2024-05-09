@@ -29,10 +29,10 @@
                 <a href="./destacados.php"><button> Destacados</button></a>
             </div>
             <div id="botonFrutas">
-                <a href=""><button> Frutas</button></a>
+                <a href="./frutas.php"><button> Frutas</button></a>
             </div>
             <div id="botonVerduras">
-                <a href=""><button> Verduras</button></a>
+                <a href="./verduras.php"><button> Verduras</button></a>
             </div>
             <div id="botonCarrito">
                 <a href="./cart.php"><button><i class="fas fa-shopping-cart"></i> Carrito</button></a>
