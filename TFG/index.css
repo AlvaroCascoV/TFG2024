@@ -48,7 +48,7 @@
 footer {
   background-color: #333;
   color: #fff;
-  padding: 20px 0;
+  padding: 3em;
 }
 
 .columnas-footer {
@@ -99,8 +99,13 @@ footer {
   padding: 5px;
 }
 
+.boton-enviar {
+  background-color: #81EE87;
+}
+
 .boton-enviar:hover {
-  background-color: #9adc9d;
+  background-color: #3B9A40;
+  color: white;
 }
 
 .copyright {
