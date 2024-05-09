@@ -12,9 +12,11 @@
 
 <body>
     <header id="header" class="text-black">
+        <div id="logo" class="logo m-2"><img src="./assets/images/logo.png" height="32px" width="32px"></div>
         <div id="tituloHead">
             Nombre tienda
         </div>
+
         <div id="botones">
             <div id="botonInicio">
                 <a href="./index.php"><button class="active"><i class="fas fa-home"></i> Inicio</button></a>
