@@ -12,15 +12,19 @@
 		body{
 			padding: 1em;
 		}
+		
 	</style>
 </head>
 
 <body>
+<?php
+include("header.php");
+?>
 	<h1>Tienda Online</h1>
 
 	<form action="cart.php" method="post">
 		<h2>Aguacate Hass</h2>
-		<img src="aguacatehass.jpg" alt="Producto 1">
+		<div><img class="foto_carrito" src="assets/images/aguacatehass.png" alt="Producto 1"></div>
 		<p>Precio: 1.50€ / pieza</p>
 		<label for="cantidad1">Cantidad:</label>
 		<input type="number" id="cantidad1" name="cantidad1" value="0" min="0">

@@ -15,7 +15,8 @@
 <?php
 include("header.php");
 ?>
-
+<!--Banner con 3 ofertas o destacados-->
+<!--Rellenar con recomendados y tal-->
 <?php
 echo "prueba php";
 

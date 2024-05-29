@@ -43,6 +43,11 @@
   background-color: #3B9A40;
   color: white;
 }
+/*Estilos Body*/
+.foto_carrito{
+  height: 12em;
+  width: 12em;
+}
 
 /*Estilo del footer*/
 footer {
