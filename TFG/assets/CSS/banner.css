@@ -1,0 +1,20 @@
+.video-container {
+    display: flex;
+    justify-content: center;
+}
+
+.video-banner {
+    background-color: #dff9e8;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+}
+
+video {
+    position: relative;
+    height: 10em;
+    width: 30%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}

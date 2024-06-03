@@ -10,6 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <link href="assets/CSS/index.css" rel="stylesheet">
     <link href="assets/CSS/carrusel.css" rel="stylesheet">
+    <link href="assets/CSS/banner.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Sonsie One' rel='stylesheet'>
     <title>TFG equipo 2</title>
 </head>
@@ -20,23 +21,15 @@
     ?>
 
     <!--Rellenar con recomendados y tal-->
-
-    <div id="carrusel-container" class="carrusel-container">
-        <div id="carrusel" class="carrusel">
-            <img class="mySlides" src="assets/images/verduras/brocoli.png">
-            <img class="mySlides" src="assets/images/verduras/cebolla.png">
-            <img class="mySlides" src="assets/images/verduras/tomate-rama.png">
-
-            <button class="carrusel-button carrusel-display-left" onclick="plusDivs(-1)">&#10094;</button>
-            <button class="carrusel-button carrusel-display-right" onclick="plusDivs(+1)">&#10095;</button>
+    <div class="video-container" id="video-container">
+        <div class="video-banner" id="video-banner">
+            <video id="video" class="video" src="assets/images/banner.mp4" autoplay loop></video>
         </div>
     </div>
-    <script src="assets/js/carrusel.js"></script>
+    <script src="assets/js/banner.js"></script>
 
 
-    <?php
-    echo "prueba php";
-    ?>
+
 
     <?php
     include("footer.php");
