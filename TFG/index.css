@@ -6,8 +6,13 @@
   background-color: #75C279;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
+#tituloContainer {
+  display: flex;
+  align-items: center;
+}
 
 #tituloHead {
   vertical-align: middle;
@@ -17,7 +22,8 @@
 #botones {
   vertical-align: middle;
   display: flex;
-  gap: 10px;
+  gap: 0.8em;
+  margin-right: 2em;
 }
 
 #botones a {
@@ -43,8 +49,9 @@
   background-color: #3B9A40;
   color: white;
 }
+
 /*Estilos Body*/
-.foto_carrito{
+.foto_carrito {
   height: 12em;
   width: 12em;
 }
