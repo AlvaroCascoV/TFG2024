@@ -33,7 +33,7 @@ include("header.php");
 
 		<div>
 			<h2>Berenjena</h2>
-			<div><img class="foto_carrito" src="assets/images/verduras/berenjena.png" alt="Foto de berenjena"></div>
+			<div class="foto_carrito"><img  src="assets/images/verduras/berenjena.png" alt="Foto de berenjena"></div>
 			<p>Precio: 4.50€ / kg </p>
 			<label for="cantidad2">Cantidad:</label>
 			<input type="number" id="cantidad2" name="cantidad2" value="0" min="0">
