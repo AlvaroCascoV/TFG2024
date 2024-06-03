@@ -19,7 +19,7 @@
     height: auto;
 }
 
-.w3-button {
+.carrusel-button {
     position: absolute;
     top: 50%;
     width: auto;
@@ -35,16 +35,16 @@
     border: none;
 }
 
-.w3-display-left {
+.carrusel-display-left {
     left: 0;
     border-radius: 3px 0 0 3px;
 }
 
-.w3-display-right {
+.carrusel-display-right {
     right: 0;
     border-radius: 0 3px 3px 0;
 }
 
-.w3-button:hover {
+.carrusel-button:hover {
     transform: scale(1.5);
 }

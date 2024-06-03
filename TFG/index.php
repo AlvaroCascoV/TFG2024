@@ -27,8 +27,8 @@
             <img class="mySlides" src="assets/images/cebolla.png">
             <img class="mySlides" src="assets/images/tomate-rama.png">
 
-            <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-            <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+            <button class="carrusel-button carrusel-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="carrusel-button carrusel-display-right" onclick="plusDivs(+1)">&#10095;</button>
         </div>
     </div>
     <script src="assets/js/carrusel.js"></script>
