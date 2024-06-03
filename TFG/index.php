@@ -23,9 +23,9 @@
 
     <div id="carrusel-container" class="carrusel-container">
         <div id="carrusel" class="carrusel">
-            <img class="mySlides" src="assets/images/brocoli.png">
-            <img class="mySlides" src="assets/images/cebolla.png">
-            <img class="mySlides" src="assets/images/tomate-rama.png">
+            <img class="mySlides" src="assets/images/verduras/brocoli.png">
+            <img class="mySlides" src="assets/images/verduras/cebolla.png">
+            <img class="mySlides" src="assets/images/verduras/tomate-rama.png">
 
             <button class="carrusel-button carrusel-display-left" onclick="plusDivs(-1)">&#10094;</button>
             <button class="carrusel-button carrusel-display-right" onclick="plusDivs(+1)">&#10095;</button>
