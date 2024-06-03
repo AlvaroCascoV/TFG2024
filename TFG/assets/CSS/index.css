@@ -56,6 +56,12 @@
   width: 12em;
 }
 
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+  width: 60%;
+  margin: auto;
+}
+
 /*Estilo del footer*/
 footer {
   background-color: #333;
