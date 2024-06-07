@@ -1,3 +1,6 @@
+<?php
+$pagina_actual = basename($_SERVER['PHP_SELF']);
+?>
 <header id="header" class="text-black">
     <div id="tituloContainer">
         <div id="logo" class="logo m-2"><img src="./assets/images/logo.png" height="32px" width="32px"></div>
@@ -8,20 +11,20 @@
 
     <div id="botones"><!--separar nombre y botones en divs para estilar-->
         <div id="botonInicio">
-            <a href="./index.php"><button class="active"><i class="fas fa-home"></i> Inicio</button></a>
+            <a href="./index.php"><button class="<?= $pagina_actual == 'index.php' ? 'active' : '' ?>"><i class="fas fa-home"></i> Inicio</button></a>
         </div>
         <div id="botonFrutas">
-            <a href="./frutas.php"><button> Frutas</button></a>
+            <a href="./frutas.php"><button class="<?= $pagina_actual == 'frutas.php' ? 'active' : '' ?>"> Frutas</button></a>
         </div>
         <div id="botonVerduras">
-            <a href="./verduras.php"><button> Verduras</button></a>
+            <a href="./verduras.php"><button class="<?= $pagina_actual == 'verduras.php' ? 'active' : '' ?>"> Verduras</button></a>
         </div>
         <div id="botonCarrito">
-            <a href="./cart.php"><button><i class="fas fa-shopping-cart"></i> Carrito</button></a>
+            <a href="./cart.php"><button class="<?= $pagina_actual == 'cart.php' ? 'active' : '' ?>"><i class="fas fa-shopping-cart"></i> Carrito</button></a>
         </div>
-        <div id="menu">
+        <!-- <div id="menu">
             <a href=""><button> <i class="fas fa-bars"></i></button></a>
-        </div>
+        </div> -->
 
     </div>
 </header>

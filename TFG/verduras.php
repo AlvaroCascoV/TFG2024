@@ -9,7 +9,7 @@
     <link href="assets/CSS/index.css" rel="stylesheet">
     <title>TFG equipo 2</title>
 	<style>
-		body{
+		form{
 			padding: 1em;
 		}
 		

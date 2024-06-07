@@ -1,6 +1,7 @@
 .video-container {
     display: flex;
     justify-content: center;
+    padding-top: 1em;
 }
 
 .video-banner {
@@ -12,7 +13,7 @@
 
 video {
     position: relative;
-    height: 10em;
+    height: 15em;
     width: 30%;
     overflow: hidden;
     display: flex;

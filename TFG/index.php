@@ -24,7 +24,7 @@
         .index-container {
             max-width: 100%;
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
             gap: 16px;
             padding: 16px;
             justify-items: center;
@@ -36,16 +36,20 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            max-width: 200px;
-            background-color: green;
+            width: 350px;
+            height: 500px;
+            background-color: rgba(228, 248, 233);
+            /* border: 2px solid rgba(135, 192, 128); */
+            border: 2px solid rgba(86, 152, 75);
+            border-radius: 10px;
         }
 
         .item-titulo {
             margin-top: 1em;
             position: absolute;
-            color: white;
-            background-color: rgba(0, 0, 0, 0.5);
-            transform: translate(0, -275%);
+            color: rgba(10, 10, 10);
+            background-color: rgba(154, 231, 144, 0.5);
+            transform: translate(0, -6em);
             padding: 10px;
             border-radius: 5px;
             text-align: center;
@@ -54,9 +58,9 @@
         .item-precio {
             margin-bottom: 1em;
             position: absolute;
-            color: white;
-            background-color: rgba(0, 0, 0, 0.5);
-            transform: translate(0, 275%);
+            color: rgba(10, 10, 10);
+            background-color: rgba(154, 231, 144, 0.5);
+            transform: translate(0, 7em);
             padding: 10px;
             border-radius: 5px;
             text-align: center;
@@ -78,7 +82,9 @@
     <script src="assets/js/banner.js"></script>
 
     <div class="contenedor-ayuda">
+
         <div class="index-container">
+
             <div class="item-container">
                 <h2 class="item-titulo">Aguacate Hass</h2>
                 <div class="item-img">
@@ -90,7 +96,7 @@
             <div class="item-container">
                 <h2 class="item-titulo">Cebolla</h2>
                 <div class="item-img">
-                    <img width="439px" height="568px" src="assets/images/verduras/cebolla.png" alt="Foto de cebolla">
+                    <img width="600px" height="776px" src="assets/images/verduras/cebolla.png" alt="Foto de cebolla">
                 </div>
                 <h5 class="item-precio">Precio: 3.50€ / kg</h5>
             </div>
@@ -106,7 +112,7 @@
             <div class="item-container">
                 <h2 class="item-titulo">Tomate rama</h2>
                 <div class="item-img">
-                    <img width="439px" height="568px" src="assets/images/verduras/tomate-rama.png" alt="Foto de tomate rama">
+                    <img width="325px" height="421px" src="assets/images/verduras/tomate-rama.png" alt="Foto de tomate rama">
                 </div>
                 <h5 class="item-precio">Precio: 3.00€ / kg</h5>
             </div>
@@ -122,10 +128,11 @@
             <div class="item-container">
                 <h2 class="item-titulo">Naranja de mesa</h2>
                 <div class="item-img">
-                    <img width="439px" height="568px" src="assets/images/frutas/naranja.png" alt="Foto de naranja de mesa">
+                    <img width="439px" height="568px" src="assets/images/frutas/naranja-mesa.png" alt="Foto de naranja de mesa">
                 </div>
+                <h5 class="item-precio">Precio: 3.50€ / kg</h5>
             </div>
-            <h5 class="item-precio">Precio: 3.50€ / kg</h5>
+
 
 
             <div class="item-container">
@@ -133,21 +140,22 @@
                 <div class="item-img">
                     <img width="439px" height="568px" src="assets/images/frutas/platano-de-canarias.png" alt="Foto de plátano de Canarias">
                 </div>
+                <h5 class="item-precio">Precio: 3.50€ / kg</h5>
             </div>
-            <h5 class="item-precio">Precio: 3.50€ / kg</h5>
+
+            <div class="item-container">
+                <h2 class="item-titulo">Kale</h2>
+                <div class="item-img">
+                    <img width="350px" height="453px" src="assets/images/verduras/kale.png" alt="Foto de kale">
+                </div>
+                <h5 class="item-precio">Precio: 3.50€ / kg</h5>
+            </div>
+
         </div>
 
-        <div class="item-container">
-            <h2 class="item-titulo">Kale</h2>
-            <div class="item-img">
-                <img width="439px" height="568px" src="assets/images/verduras/kale.png" alt="Foto de kale">
-            </div>
-        </div>
-        <h5 class="item-precio">Precio: 3.50€ / pack</h5>
 
-    </div>
-    </div>
-    </div>
+
+
     </div>
 
 
