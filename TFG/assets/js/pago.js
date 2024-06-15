@@ -1,4 +1,4 @@
 function processPayment() {
-    document.getElementById('payment-success').style.display = 'block';
+    document.getElementById('pago-aceptado').style.display = 'block';
     return false;
 }
