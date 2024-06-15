@@ -16,55 +16,7 @@
 
 
     <style>
-        .contenedor-ayuda {
-            display: flex;
-            justify-content: center;
-        }
-
-        .index-container {
-            max-width: 100%;
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-            gap: 16px;
-            padding: 16px;
-            justify-items: center;
-        }
-
-        .item-container {
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 350px;
-            height: 500px;
-            background-color: rgba(228, 248, 233);
-            /* border: 2px solid rgba(135, 192, 128); */
-            border: 2px solid rgba(86, 152, 75);
-            border-radius: 10px;
-        }
-
-        .item-titulo {
-            margin-top: 1em;
-            position: absolute;
-            color: rgba(10, 10, 10);
-            background-color: rgba(154, 231, 144, 0.5);
-            transform: translate(0, -6em);
-            padding: 10px;
-            border-radius: 5px;
-            text-align: center;
-        }
-
-        .item-precio {
-            margin-bottom: 1em;
-            position: absolute;
-            color: rgba(10, 10, 10);
-            background-color: rgba(154, 231, 144, 0.5);
-            transform: translate(0, 7em);
-            padding: 10px;
-            border-radius: 5px;
-            text-align: center;
-        }
+        
     </style>
 </head>
 
