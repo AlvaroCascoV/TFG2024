@@ -18,15 +18,16 @@ input[type="date"] {
 }
 
 input[type="submit"] {
-    background-color: #007bff;
-    color: #fff;
+    background-color: #81EE87;
+    color: #000;
     border: none;
     cursor: pointer;
     padding: 10px 20px;
 }
 
 input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #3B9A40;
+    color: #fff;
 }
 
 #pago-aceptado {
