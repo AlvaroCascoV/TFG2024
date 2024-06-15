@@ -13,11 +13,6 @@
     <link href="assets/CSS/banner.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Sonsie One' rel='stylesheet'>
     <title>TFG equipo 2</title>
-
-
-    <style>
-        
-    </style>
 </head>
 
 <body>
