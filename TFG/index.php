@@ -20,7 +20,6 @@
     include("header.php");
     ?>
 
-    <!--Rellenar con recomendados y tal-->
     <div class="video-container" id="video-container">
         <div class="video-banner" id="video-banner">
             <video id="video" class="video" src="assets/images/banner.mp4" autoplay loop></video>

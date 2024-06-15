@@ -35,31 +35,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $password = "root";
   $dbname = "Grupo2TFG2024";
 
-  // Create connection
   $connection = new mysqli($servername, $username, $password, $dbname);
 
-  // Check connection
   if ($connection->connect_error) {
     die("Conexión fallida: " . $connection->connect_error);
   }
 
-  // Get form data
   $nombre = $_POST['nombre'];
   $email = $_POST['email'];
   $mensaje = $_POST['mensaje'];
 
-  // Prepare and bind
   $consulta = $connection->prepare("INSERT INTO formulario_datos (nombre, email, mensaje) VALUES (?, ?, ?)");
   $consulta->bind_param("sss", $nombre, $email, $mensaje);
 
-  // Execute statement
   if ($consulta->execute()) {
     echo "Mensaje enviado correctamente";
   } else {
     echo "Error: " . $consulta->error;
   }
 
-  // Close connection
   $consulta->close();
   $connection->close();
 }
