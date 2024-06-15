@@ -7,13 +7,12 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 	<link href="assets/CSS/index.css" rel="stylesheet">
-	<link href="assets/CSS/frutas.css" rel="stylesheet">
+	<link href="assets/CSS/compras.css" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Sonsie One' rel='stylesheet'>
 	<title>TFG equipo 2</title>
 </head>
 
 <body>
-
 	<?php
 	include("header.php");
 	?>
