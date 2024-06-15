@@ -123,3 +123,12 @@
     width: 50px;
     text-align: center;
 }
+
+.boton-agregar {
+  background-color: #81EE87;
+}
+
+.boton-agregar:hover {
+  background-color: #3B9A40;
+  color: white;
+}
