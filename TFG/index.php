@@ -35,7 +35,7 @@
             <div class="item-container">
                 <h2 class="item-titulo">Aguacate Hass</h2>
                 <div class="item-img">
-                    <img width="439px" height="568px" width="439px" height="568px" src="assets/images/verduras/aguacatehass.png" alt="foto de aguacate hass">
+                    <img width="439px" height="568px" src="assets/images/verduras/aguacatehass.png" alt="foto de aguacate hass">
                 </div>
                 <h5 class="item-precio">Precio: 1.50€ / pieza</h5>
             </div>
