@@ -17,10 +17,10 @@
     </div>
     <div class="columna-footer">
       <h3 class="cabecera-columna-footer">Formulario de contacto</h3>
-      <form class="formulario-contacto" action="#" method="POST">
-        <input type="text" name="nombre" placeholder="Nombre">
-        <input type="email" name="email" placeholder="Email">
-        <textarea name="mensaje" placeholder="Mensaje"></textarea>
+      <form class="formulario-contacto" action="<?php echo ($_SERVER['PHP_SELF']); ?>" method="POST">
+        <input type="text" name="nombre" id="nombre" required placeholder="Nombre">
+        <input type="email" name="email" id="email" required placeholder="Email">
+        <textarea name="mensaje" id="mensaje" required placeholder="Mensaje"></textarea>
         <input type="submit" value="Enviar" class="boton-enviar">
       </form>
     </div>
@@ -29,36 +29,38 @@
 </footer>
 
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "root";
-$dbname = "Grupo2TFG2024";
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $servername = "localhost";
+  $username = "root";
+  $password = "root";
+  $dbname = "Grupo2TFG2024";
 
-// Create connection
-$connection = new mysqli($servername, $username, $password, $dbname);
+  // Create connection
+  $connection = new mysqli($servername, $username, $password, $dbname);
 
-// Check connection
-if ($connection->connect_error) {
+  // Check connection
+  if ($connection->connect_error) {
     die("Conexión fallida: " . $connection->connect_error);
-}
+  }
 
-// Get form data
-$nombre = $_POST['nombre'];
-$email = $_POST['email'];
-$mensaje = $_POST['mensaje'];
+  // Get form data
+  $nombre = $_POST['nombre'];
+  $email = $_POST['email'];
+  $mensaje = $_POST['mensaje'];
 
-// Prepare and bind
-$consulta = $connection->prepare("INSERT INTO formulario_datos (nombre, email, mensaje) VALUES (?, ?, ?)");
-$consulta->bind_param("sss", $nombre, $email, $mensaje);
+  // Prepare and bind
+  $consulta = $connection->prepare("INSERT INTO formulario_datos (nombre, email, mensaje) VALUES (?, ?, ?)");
+  $consulta->bind_param("sss", $nombre, $email, $mensaje);
 
-// Execute statement
-if ($consulta->execute()) {
-    echo "New record created successfully";
-} else {
+  // Execute statement
+  if ($consulta->execute()) {
+    echo "Mensaje enviado correctamente";
+  } else {
     echo "Error: " . $consulta->error;
-}
+  }
 
-// Close connection
-$consulta->close();
-$connection->close();
+  // Close connection
+  $consulta->close();
+  $connection->close();
+}
 ?>

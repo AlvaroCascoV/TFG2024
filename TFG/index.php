@@ -97,16 +97,8 @@
                 </div>
                 <h5 class="item-precio">Precio: 3.50€ / kg</h5>
             </div>
-
         </div>
-
-
-
-
     </div>
-
-
-
     <?php
     include("footer.php");
     ?>

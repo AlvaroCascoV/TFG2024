@@ -152,6 +152,9 @@
 		</div>
 		<script src="assets/js/carrito.js"></script>
 	</div>
+	<?php
+    include("footer.php");
+    ?>
 </body>
 
 </html>
