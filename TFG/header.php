@@ -20,7 +20,7 @@ $pagina_actual = basename($_SERVER['PHP_SELF']);
             <a href="./verduras.php"><button class="<?= $pagina_actual == 'verduras.php' ? 'active' : '' ?>"> Verduras</button></a>
         </div>
         <div id="botonCarrito">
-            <a href="./cart.php"><button class="<?= $pagina_actual == 'cart.php' ? 'active' : '' ?>"><i class="fas fa-shopping-cart"></i> Carrito</button></a>
+            <a href="./carrito.php"><button class="<?= $pagina_actual == 'carrito.php' ? 'active' : '' ?>"><i class="fas fa-shopping-cart"></i> Carrito</button></a>
         </div>
         <!-- <div id="menu">
             <a href=""><button> <i class="fas fa-bars"></i></button></a>
