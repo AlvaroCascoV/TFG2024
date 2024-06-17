@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,9 +13,12 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Sonsie One' rel='stylesheet'>
 </head>
+
 <body>
+    <!-- Incluimos la cabecera -->
     <?php include("header.php"); ?>
 
+    <!-- Estructura HTML de la pasarela de pago -->
     <div class="container">
         <h2>Registro de Tarjeta de Crédito</h2>
         <form id="formulario-pago" method="POST">
@@ -28,4 +32,5 @@
     </div>
     <script src="assets/js/pago.js"></script>
 </body>
+
 </html>

@@ -16,17 +16,20 @@
 </head>
 
 <body>
+    <!-- Se incluye el header de la página -->
     <?php
     include("header.php");
     ?>
-
+    <!-- Estructura del banner de ofertas -->
     <div class="video-container" id="video-container">
         <div class="video-banner" id="video-banner">
             <video id="video" class="video" src="assets/images/banner.mp4" autoplay loop></video>
         </div>
     </div>
+    <!-- Script JavaScript del banner -->
     <script src="assets/js/banner.js"></script>
 
+    <!-- Estructura de la página principal -->
     <div class="contenedor-ayuda">
 
         <div class="index-container">
@@ -96,6 +99,7 @@
             </div>
         </div>
     </div>
+    <!-- Incluimos el pie de página -->
     <?php
     include("footer.php");
     ?>

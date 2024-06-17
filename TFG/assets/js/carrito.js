@@ -1,6 +1,7 @@
+//Código del carrito de compra
 let cartItems = [];
 let totalPrice = 0;
-
+//Función de añadir al carrito
 function addToCart(productName, price, quantityId) {
     const quantityInput = document.getElementById(quantityId);
     const quantity = parseInt(quantityInput.value);
@@ -18,13 +19,13 @@ function addToCart(productName, price, quantityId) {
         alert("Por favor, seleccione una cantidad válida.");
     }
 }
-
+//Función de eliminar del carrito
 function removeFromCart(index) {
     const removedItem = cartItems.splice(index, 1)[0];
     totalPrice -= removedItem.price;
     updateCart();
 }
-
+//Función de actualizar el carrito
 function updateCart() {
     const cartList = document.getElementById('cart-items');
     cartList.innerHTML = '';
@@ -43,7 +44,7 @@ function updateCart() {
     document.getElementById('total').textContent = `Total: ${totalPrice.toFixed(2)} € `;
     document.getElementById('payment-form').style.display = 'block';
 }
-
+//Función de procesamiento del pago
 function processPayment() {
     alert("Acepta para redirigir a la pasarela de pago.");
     window.location.href = "pago.php";

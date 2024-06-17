@@ -1,3 +1,4 @@
+<!-- Envío php de los datos de pago a la base de datos -->
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $servername = "localhost";

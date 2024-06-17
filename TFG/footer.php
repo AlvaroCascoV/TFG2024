@@ -1,3 +1,4 @@
+<!-- Estructura HTML del pie de página -->
 <footer>
   <div class="columnas-footer">
     <div class="columna-footer">
@@ -27,7 +28,7 @@
   </div>
   <div class="copyright"><i class="far fa-copyright"></i> 2024, Verdisfruta. Todos los derechos reservados</div>
 </footer>
-
+<!-- Envío php de los datos del formulario de contacto -->
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $servername = "localhost";

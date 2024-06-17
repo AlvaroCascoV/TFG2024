@@ -1,3 +1,4 @@
+//Función para procesar el pago
 function processPayment() {
     const form = document.getElementById('formulario-pago');
     const paymentSuccess = document.getElementById('pago-aceptado');

@@ -13,10 +13,13 @@
 </head>
 
 <body>
+	<!-- Se incluye el header de la página -->
 	<?php
 	include("header.php");
 	?>
+
 	<div class="padre">
+		<!-- Estructura html del carrito -->
 		<div id="cart" class="cart-container">
 			<h2>Carrito de Compras</h2>
 			<ul id="cart-items" class="cart-items"></ul>
@@ -27,6 +30,7 @@
 				<button onclick="processPayment()">Pagar con Tarjeta</button>
 			</div>
 		</div>
+		<!-- Estructura de la página de verduras -->
 		<h1 class="pt-5 px-5 titulo-tipo" style="color: green;">Verduras</h1>
 		<div class="body-container">
 			<div class="item-container">
@@ -206,11 +210,13 @@
 			</div>
 
 		</div>
+		<!-- Script JavaScript del carrito -->
 		<script src="assets/js/carrito.js"></script>
 	</div>
+	<!-- Incluimos el pie de página -->
 	<?php
-    include("footer.php");
-    ?>
+	include("footer.php");
+	?>
 </body>
 
 </html>
