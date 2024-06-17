@@ -6,7 +6,7 @@ $pagina_actual = basename($_SERVER['PHP_SELF']);
     <div id="tituloContainer">
         <div id="logo" class="logo m-2"><img src="./assets/images/logo.png" height="32px" width="32px"></div>
         <div id="tituloHead" style="font-family: 'Sonsie One';font-size: 22px;">
-            <span style="color: green;">Ver</span><span style="color: #f2f759;">Dis</span><span style="color: red;">Fruta</span>
+            <a style="text-decoration: none;" href="index.php"><span style="color: green;">Ver</span><span style="color: #f2f759;">Dis</span><span style="color: red;">Fruta</span></a>
         </div>
     </div>
 
