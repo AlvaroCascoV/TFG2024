@@ -24,7 +24,7 @@
 			<div id="payment-form" class="payment-form">
 				<h2>Pasarela de Pago</h2>
 				<p>Por favor, completa tu pago:</p>
-				<button onclick="processPayment()">Pagar con PayPal</button>
+				<button onclick="processPayment()">Pagar con Tarjeta</button>
 			</div>
 		</div>
 		<h1 class="pt-5 px-5">Verduras</h1>
