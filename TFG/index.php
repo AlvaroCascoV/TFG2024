@@ -79,8 +79,6 @@
                 <h5 class="item-precio">Precio: 3.50€ / kg</h5>
             </div>
 
-
-
             <div class="item-container">
                 <h2 class="item-titulo">Plátano de canarias</h2>
                 <div class="item-img">
