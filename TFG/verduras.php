@@ -27,7 +27,7 @@
 				<button onclick="processPayment()">Pagar con Tarjeta</button>
 			</div>
 		</div>
-		<h1 class="pt-5 px-5">Verduras</h1>
+		<h1 class="pt-5 px-5 titulo-tipo" style="color: green;">Verduras</h1>
 		<div class="body-container">
 			<div class="item-container">
 				<h2 class="item-titulo">Aguacate Hass</h2>

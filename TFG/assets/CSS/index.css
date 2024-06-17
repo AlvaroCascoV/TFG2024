@@ -51,6 +51,13 @@
 }
 
 /*Estilos Body*/
+.titulo-tipo {
+  font-family: 'Sonsie One';
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+}
+
 .contenedor-ayuda {
   display: flex;
   justify-content: center;

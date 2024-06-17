@@ -27,7 +27,7 @@
 				<button onclick="processPayment()">Pagar con Tarjeta</button>
 			</div>
 		</div>
-		<h1 class="pt-5 px-5">Frutas</h1>
+		<h1 class="pt-5 px-5 titulo-tipo" style="color: red;">Frutas</h1>
 		<div class="body-container">
 			<div class="item-container">
 				<h2 class="item-titulo">Cereza</h2>
