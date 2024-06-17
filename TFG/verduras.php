@@ -32,11 +32,11 @@
 			<div class="item-container">
 				<h2 class="item-titulo">Aguacate Hass</h2>
 				<div class="item-img"><img width="400px" height="auto" class="foto_carrito" src="assets/images/verduras/aguacatehass.png" alt="foto de aguacate"></div>
-				<p class="item-precio">Precio: 1.50€ / pieza</p>
+				<p class="item-precio">Precio: 5.99€ / kg</p>
 				<div class="cantidad-container">
 					<label for="cantidad-aguacate">Cantidad:</label>
 					<input type="number" id="cantidad-aguacate" name="cantidad-aguacate" value="0" min="0">
-					<button onclick="addToCart('Aguacate Hass', 1.50, 'cantidad-aguacate')" class="boton-agregar">Agregar al Carrito</button>
+					<button onclick="addToCart('Aguacate Hass', 5.99, 'cantidad-aguacate')" class="boton-agregar">Agregar al Carrito</button>
 				</div>
 			</div>
 
@@ -76,11 +76,11 @@
 			<div class="item-container">
 				<h2 class="item-titulo">Calabacin</h2>
 				<div class="item-img"><img width="439px" height="auto" class="foto_carrito" src="assets/images/verduras/calabacin.png" alt="Foto de calabacín"></div>
-				<p class="item-precio">Precio: 3.50€ / kg</p>
+				<p class="item-precio">Precio: 2.50€ / kg</p>
 				<div class="cantidad-container">
 					<label for="cantidad-calabacin">Cantidad:</label>
 					<input type="number" id="cantidad-calabacin" name="cantidad-calabacin" value="0" min="0">
-					<button onclick="addToCart('Calabacín', 3.50, 'cantidad-calabacin')" class="boton-agregar">Agregar al Carrito</button>
+					<button onclick="addToCart('Calabacín', 2.50, 'cantidad-calabacin')" class="boton-agregar">Agregar al Carrito</button>
 				</div>
 			</div>
 
@@ -109,11 +109,11 @@
 			<div class="item-container">
 				<h2 class="item-titulo">Curcuma fresca</h2>
 				<div class="item-img"><img width="439px" height="auto" class="foto_carrito" src="assets/images/verduras/curcuma.png" alt="Foto de curcuma"></div>
-				<p class="item-precio">Precio: 2.50€ / pack</p>
+				<p class="item-precio">Precio: 2.00€ / pack</p>
 				<div class="cantidad-container">
 					<label for="cantidad-curcuma">Cantidad:</label>
 					<input type="number" id="cantidad-curcuma" name="cantidad-curcuma" value="0" min="0">
-					<button onclick="addToCart('Curcuma fresca', 2.50, 'cantidad-curcuma')" class="boton-agregar">Agregar al Carrito</button>
+					<button onclick="addToCart('Curcuma fresca', 2.00, 'cantidad-curcuma')" class="boton-agregar">Agregar al Carrito</button>
 				</div>
 			</div>
 

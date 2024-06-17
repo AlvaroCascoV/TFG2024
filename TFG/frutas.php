@@ -54,11 +54,11 @@
 			<div class="item-container">
 				<h2 class="item-titulo">Frambuesa</h2>
 				<div class="item-img"><img width="300px" height="200px" class="foto carrito" src="assets/images/frutas/frambuesa.png" alt="Foto de frambuesa"></div>
-				<p class="item-precio">Precio: 3.50€ / bandeja </p>
+				<p class="item-precio">Precio: 2.50€ / bandeja </p>
 				<div class="cantidad-container">
 					<label for="cantidad-frambuesa">Cantidad:</label>
 					<input type="number" id="cantidad-frambuesa" name="cantidad-frambuesa" value="0" min="0">
-					<button onclick="addToCart('Frambuesa', 3.50, 'cantidad-frambuesa')" class="boton-agregar">Agregar al Carrito</button>
+					<button onclick="addToCart('Frambuesa', 2.50, 'cantidad-frambuesa')" class="boton-agregar">Agregar al Carrito</button>
 				</div>
 			</div>
 
