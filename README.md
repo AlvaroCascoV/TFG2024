@@ -7,3 +7,9 @@ sitio web debe tener un catálogo de productos, búsqueda avanzada, registro de 
 carrito de compras, pago integrado, sección de administración para la gestión de productos
 y pedidos, una sección de contacto para consultas y un diseño atractivo que refleje la
 identidad de la empresa.
+
+Datos para MySQL/PhpMyAdmin:
+    user: root
+    pass: root
+
+    Base de datos: Grupo2TFG2024
