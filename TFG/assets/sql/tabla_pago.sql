@@ -4,5 +4,6 @@ CREATE TABLE pago_datos (
     fecha_caducidad DATE NOT NULL,
     nombre_tarjeta VARCHAR(100) NOT NULL,
     cvv VARCHAR(4) NOT NULL,
+    direccion_envio VARCHAR(100) NOT NULL,
     fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );

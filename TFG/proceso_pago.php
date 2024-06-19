@@ -16,9 +16,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $fecha_caducidad = $_POST['fecha_caducidad'];
     $nombre_tarjeta = $_POST['nombre_tarjeta'];
     $cvv = $_POST['cvv'];
+    $direccion_envio = $_POST['direccion_envio'];
 
-    $consulta = $connection->prepare("INSERT INTO pago_datos (numero_tarjeta, fecha_caducidad, nombre_tarjeta, cvv) VALUES (?, ?, ?, ?)");
-    $consulta->bind_param("ssss", $numero_tarjeta, $fecha_caducidad, $nombre_tarjeta, $cvv);
+    $consulta = $connection->prepare("INSERT INTO pago_datos (numero_tarjeta, fecha_caducidad, nombre_tarjeta, cvv, direccion_envio) VALUES (?, ?, ?, ?, ?)");
+    $consulta->bind_param("sssss", $numero_tarjeta, $fecha_caducidad, $nombre_tarjeta, $cvv, $direccion_envio);
 
     if ($consulta->execute()) {
         echo "Información guardada correctamente";

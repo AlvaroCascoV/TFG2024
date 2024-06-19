@@ -26,6 +26,7 @@
             <input type="date" id="fecha_caducidad" name="fecha_caducidad" placeholder="Fecha de Caducidad" required>
             <input type="text" id="nombre_tarjeta" name="nombre_tarjeta" placeholder="Nombre del Titular" required>
             <input type="number" id="cvv" name="cvv" placeholder="Código CVV" required>
+            <input type="text" id="direccion_envio" name="direccion_envio" placeholder="Dirección de Envío" required>
             <input type="submit" value="Registrar Tarjeta y Pagar">
         </form>
         <div id="pago-aceptado">Pago realizado con éxito</div>
